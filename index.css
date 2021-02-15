@@ -1,0 +1,70 @@
+.accord-panel{
+    display: none;
+}
+.container{
+    margin-left:2%;
+    width: fit-content;
+    
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+    align-content: flex-start;
+    flex-direction: column;
+}
+
+.tab-list{
+justify-self:flex-start;
+    margin-left: -40px;
+
+    
+}
+.tab-list li{
+   display: inline-block;
+    background-color: rgb(52, 52, 129);
+    border: 1px solid rgb(52, 52, 129);
+    border-radius: 10px 10px 0px 0px;
+    height: 20px;
+    align-items: center;
+    padding: 10px;
+    
+    line-height: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    
+    
+}
+.tab-list li:hover{
+
+    background-color: rgb(105, 105, 182);
+    
+}
+
+
+
+.tab-list li a{
+    color: whitesmoke;
+    text-decoration: none;
+    
+    
+ }
+
+
+.tab-panel{
+    margin-top: -16px;
+    width: 50%;
+    background-color: rgb(100, 100, 145);
+    text-align: justify;
+    padding: 20px;
+    border: 1px solid  rgb(100, 100, 145);
+    border-radius: 0px 10px 0px 0px;
+    display: none;
+}
+.tab-panel.active{
+    display: block;
+}
+
+.modal{
+position: absolute;
+z-index: 1000;
+
+}
