@@ -1,5 +1,5 @@
-#Content Panels and Acordians
-#html css and javascript
-#Created wih JQuery
-#uploded on git hub
-#hello
+# Content Panels and Acordians
+## Things I have learnd 
+* Use javascript to create Acordian
+* Basics of Jquery Library
+* Custom CSS design 
